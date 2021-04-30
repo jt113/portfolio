@@ -22,22 +22,50 @@ p{
 
 .App-header {
   /* background-color: #282c34; */
-  background-color: #2C3D50;
+  background-color: none;
   min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: default;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.about-me {
+  padding: 40px 0px 50px 0px;
+  line-height: 2.0;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.portfolio-profile-img {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px 0 #ccc;
+  height: auto;
+  max-width: 150px;
+}
+
+/* .img-responsive, img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
-.w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.w3-card,.w3-card-2{
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+  /* box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) */
+}
 .w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
 
 .w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
@@ -59,4 +87,8 @@ html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{ove
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+.card-row {
+  padding: 10px 0px 50px 0px;
 }
